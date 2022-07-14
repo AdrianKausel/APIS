@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+html{
+    background-color: rgb(133, 118, 101);
+    padding-left: 20%;
+    padding-right: 20%;
+}
+body{
+    background-color: rgba(134, 127, 127, 0.71);
+    width: 100%;
+    height: 1200px;
+}
+
+.titlecontainer{
+    display: flex;
+    align-items: center;
+}
+.logopic{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}   
+.mainTitle{
+    color: goldenrod;
+    font-size: 35px;
+    border-color: darkolivegreen;
+    font-family: 'MedievalSharp', cursive;
+    display: flex;
+}
+#navbar{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(78, 124, 78);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+#maincontainer{
+    background-image: url("assets/wp10602588.png");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+.btncontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35%;
+}
+.btn{
+    background-color: rgb(142, 144, 97);
+    color: aliceblue;
+    height: 60px;
+    width: 160px;
+    border-radius: 10%;
+    margin-left: 10px;
+    box-shadow:26px 5px 10px 5px rgba(0,0,0,0.51) ;
+    font-family: 'MedievalSharp', cursive;
+
+}
